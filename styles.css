@@ -1,70 +1,98 @@
 .main {
-    margin-top: 100px;    
+  margin-top: 100px;
 }
 
 .logo-img {
-    display: block;
-    width: 300px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .search-input {
-    display: block;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
 }
 
 .btn-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 30px;
-    background: #dfe1e5;
-    border: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border-radius: 4px;
-    font-size: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 30px;
+  background: #dfe1e5;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 body {
-    margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
-    width: 150px;
+  width: 150px;
 }
 
 .card {
-    width: 400px;
-    margin: 200px auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background: #bde0fe;
-    color: #2b2839;
-    border-bottom: 6px solid #14213d;
+  width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #bde0fe;
+  color: #2b2839;
+  border-bottom: 6px solid #14213d;
 }
 
 .border-blue {
-    border: 1px dotted blue;
+  border: 1px dotted blue;
 }
 
+.space-expl {
+  text-align: center;
+  
+  background-image: url("universe.png");
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+  margin: auto;
+ 
+  color: #82a5ca;
+  background-size: cover;
+}
+
+.btn-apply {
+  background-color: white;
+  color: #82a5ca;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  font-family: inherit;
+}
+
+.underline {
+  border-bottom: 2px solid white;
+}
+
+#main-logo {
+  width: 800px;
+}
